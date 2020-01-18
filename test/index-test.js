@@ -11,15 +11,13 @@ const {
 const fixturesPath = path.resolve(__dirname, 'fixtures');
 
 async function emberInit({
-  args = [],
-  overwrite
+  args = []
 }) {
   return await _emberInit({
     args: [
       '-sn',
       ...args
-    ],
-    overwrite
+    ]
   });
 }
 
