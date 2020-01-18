@@ -19,6 +19,16 @@
           "name": "@kellyselden/node-template"
         }
       ]
+    },
+    {
+      "name": "ember-cli-blueprint",
+      "location": ".",
+      "version": "0.1.0",
+      "blueprints": [
+        {
+          "name": "ember-cli-blueprint"
+        }
+      ]
     }
   ]
 }
