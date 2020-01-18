@@ -23,7 +23,7 @@
     {
       "name": "ember-cli-blueprint",
       "location": ".",
-      "version": "0.1.2",
+      "version": "0.1.5",
       "blueprints": [
         {
           "name": "ember-cli-blueprint"
