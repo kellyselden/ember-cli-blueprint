@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/kellyselden/ember-cli-blueprint/issues"
   },
-  "homepage": "https://github.com/kellyselden/ember-cli-blueprint#readme"
+  "homepage": "https://github.com/kellyselden/ember-cli-blueprint#readme",
+  "engines": {
+    "node": ">=8.10"
+  }
 }
