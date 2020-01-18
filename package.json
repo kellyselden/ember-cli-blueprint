@@ -1,0 +1,22 @@
+{
+  "name": "ember-cli-blueprint",
+  "version": "0.0.0",
+  "description": "A starting point for making Ember (or non-Ember) project blueprints",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/ember-cli-blueprint.git"
+  },
+  "keywords": [
+    "ember-blueprint"
+  ],
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/ember-cli-blueprint/issues"
+  },
+  "homepage": "https://github.com/kellyselden/ember-cli-blueprint#readme"
+}
