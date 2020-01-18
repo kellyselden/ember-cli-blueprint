@@ -24,6 +24,8 @@ async function emberInit({
 }
 
 describe(function() {
+  this.timeout(5 * 1000);
+
   before(async function() {
     let {
       blueprintPath,
