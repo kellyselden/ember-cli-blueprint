@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-blueprint",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A starting point for making Ember (or non-Ember) project blueprints",
   "main": "index.js",
   "scripts": {
