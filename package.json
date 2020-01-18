@@ -3,6 +3,9 @@
   "version": "0.1.2",
   "description": "A starting point for making Ember (or non-Ember) project blueprints",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "lint": "eslint . --ext js,json",
     "test": "mocha --recursive"
