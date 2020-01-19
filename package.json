@@ -1,0 +1,45 @@
+{
+  "name": "ember-cli-blueprint",
+  "version": "0.1.6",
+  "description": "A starting point for making Ember (or non-Ember) project blueprints",
+  "main": "index.js",
+  "files": [
+    "files"
+  ],
+  "scripts": {
+    "lint": "eslint . --ext js,json",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kellyselden/ember-cli-blueprint.git"
+  },
+  "keywords": [
+    "ember-blueprint"
+  ],
+  "author": "Kelly Selden",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kellyselden/ember-cli-blueprint/issues"
+  },
+  "homepage": "https://github.com/kellyselden/ember-cli-blueprint#readme",
+  "engines": {
+    "node": ">=8.10"
+  },
+  "devDependencies": {
+    "@kellyselden/node-template": "0.5.1",
+    "chai": "^4.2.0",
+    "chai-fs": "^2.0.0",
+    "ember-cli-update-test-helpers": "0.4.0",
+    "eslint": "^6.8.0",
+    "eslint-config-sane": "0.8.5",
+    "eslint-config-sane-node": "0.3.0",
+    "eslint-plugin-json-files": "0.8.0",
+    "eslint-plugin-mocha": "^6.2.2",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prefer-let": "^1.0.1",
+    "mocha": "^7.0.0",
+    "mocha-helpers": "^4.2.1",
+    "renovate-config-standard": "^2.0.0"
+  }
+}

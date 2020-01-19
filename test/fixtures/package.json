@@ -1,0 +1,9 @@
+{
+  "main": "index.js",
+  "files": [
+    "files"
+  ],
+  "keywords": [
+    "ember-blueprint"
+  ]
+}
