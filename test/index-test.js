@@ -5,7 +5,7 @@ const { expect } = require('./helpers/chai');
 const path = require('path');
 const {
   emberInit: _emberInit,
-  prepareBlueprint
+  setUpBlueprintMocha
 } = require('ember-cli-update-test-helpers');
 
 const fixturesPath = path.resolve(__dirname, 'fixtures');
@@ -24,19 +24,8 @@ async function emberInit({
 describe(function() {
   this.timeout(5 * 1000);
 
-  before(async function() {
-    let {
-      blueprintPath,
-      cleanUp
-    } = await prepareBlueprint();
-
-    this.blueprintPath = blueprintPath;
-    this.cleanUp = cleanUp;
-  });
-
-  after(async function() {
-    await this.cleanUp();
-  });
+  // eslint-disable-next-line mocha/no-setup-in-describe
+  setUpBlueprintMocha.call(this);
 
   it('works', async function() {
     let cwd = await emberInit({
