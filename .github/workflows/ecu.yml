@@ -13,4 +13,4 @@ jobs:
         ref: ${{ github.head_ref }}
         token: ${{ secrets.GitHubToken }}
     - uses: actions/setup-node@v1.1.0
-    - uses: kellyselden/ember-cli-update-action@v1.0.37
+    - uses: kellyselden/ember-cli-update-action@v1.0.38
