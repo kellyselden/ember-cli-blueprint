@@ -27,7 +27,6 @@
     "node": ">=8.10"
   },
   "devDependencies": {
-    "@kellyselden/node-template": "0.5.1",
     "chai": "^4.2.0",
     "chai-fs": "^2.0.0",
     "ember-cli-update-test-helpers": "0.4.0",
@@ -41,5 +40,8 @@
     "mocha": "^7.0.0",
     "mocha-helpers": "^4.2.1",
     "renovate-config-standard": "^2.0.0"
+  },
+  "optionalDependencies": {
+    "@kellyselden/node-template": "0.5.1"
   }
 }
