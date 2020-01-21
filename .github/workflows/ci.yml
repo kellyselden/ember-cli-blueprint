@@ -18,6 +18,8 @@ jobs:
     - run: npm run lint
 
   test:
+    needs: lint
+
     strategy:
       matrix:
         os:
@@ -37,3 +39,17 @@ jobs:
 
     - run: npm ci
     - run: npm test
+
+  ember-cli-update:
+    needs: test
+    if: github.event_name == 'pull_request'
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        ref: ${{ github.head_ref }}
+        token: ${{ secrets.GitHubToken }}
+    - uses: actions/setup-node@v1.1.0
+    - uses: kellyselden/ember-cli-update-action@v1.0.39
