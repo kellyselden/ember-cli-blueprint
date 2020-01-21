@@ -43,6 +43,7 @@
   },
   "optionalDependencies": {
     "@kellyselden/node-template": "0.5.5",
+    "ember-cli-blueprint": "0.1.6",
     "standard-node-template": "0.0.1"
   }
 }
