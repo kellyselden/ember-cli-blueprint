@@ -51,8 +51,10 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
         token: ${{ secrets.GitHubToken }}
+
     # support `"location": "."` blueprints
+    # https://github.com/actions/checkout#Fetch-all-tags
     - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
     - uses: actions/setup-node@v1.1.0
-    - uses: kellyselden/ember-cli-update-action@v1.0.40
+    - uses: kellyselden/ember-cli-update-action@v1.0.42
