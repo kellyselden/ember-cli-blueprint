@@ -2,9 +2,8 @@ name: CI
 
 on:
   push:
-    # allow greenkeeper for now
-    # branches:
-    # - master
+    branches:
+    - master
   pull_request:
 
 jobs:
