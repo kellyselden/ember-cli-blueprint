@@ -57,7 +57,7 @@ jobs:
     - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
 
     - uses: actions/setup-node@v2
-    - uses: kellyselden/ember-cli-update-action@v2
+    - uses: kellyselden/ember-cli-update-action@v3
       with:
         autofix_command: npm run lint -- --fix
         ignore_to: true
