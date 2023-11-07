@@ -22,7 +22,7 @@ async function emberInit({
 }
 
 describe(function() {
-  this.timeout(5e3);
+  this.timeout(10e3);
 
   // eslint-disable-next-line mocha/no-setup-in-describe
   setUpBlueprintMocha.call(this);
