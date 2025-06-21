@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/kellyselden/ember-cli-blueprint#readme",
   "engines": {
-    "node": ">=18.12"
+    "node": ">=20.9"
   },
   "devDependencies": {
     "@kellyselden/node-template": "6.3.0",
