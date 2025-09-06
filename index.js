@@ -4,8 +4,8 @@ module.exports = {
   locals() {
     return {
       fileMap: {
-        '^_package.json$': 'package.json'
-      }
+        '^_package.json$': 'package.json',
+      },
     };
-  }
+  },
 };
