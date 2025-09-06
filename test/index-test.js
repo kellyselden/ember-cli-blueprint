@@ -5,19 +5,19 @@ const { expect } = require('./helpers/chai');
 const path = require('path');
 const {
   emberInit: _emberInit,
-  setUpBlueprintMocha
+  setUpBlueprintMocha,
 } = require('ember-cli-update-test-helpers');
 
 const fixturesPath = path.resolve(__dirname, 'fixtures');
 
 async function emberInit({
-  args = []
+  args = [],
 }) {
   return await _emberInit({
     args: [
       '-sn',
-      ...args
-    ]
+      ...args,
+    ],
   });
 }
 
@@ -31,8 +31,8 @@ describe(function() {
     let cwd = await emberInit({
       args: [
         '-b',
-        this.blueprintPath
-      ]
+        this.blueprintPath,
+      ],
     });
 
     expect(cwd).to.be.a.directory().and.equal(fixturesPath);
